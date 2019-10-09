@@ -3,7 +3,7 @@
     <header class="border-t-14 border-green-700">
       <nav class="container mx-auto flex flex-wrap justify-between items-center py-8">
         <div>
-          <g-link v-if="theme === 'theme-light'" to="/"><g-image src="../../static/logo.svg" class="w-40" alt="logo" /></g-link>
+          <g-link v-if="theme === 'theme-light'" to="/"><g-image src="../../static/icono.png" class="w-10" alt="logo" /></g-link>
           <g-link v-else to="/"><g-image src="../../static/logo_dark_mode.svg" class="w-40" alt="logo" /></g-link>
         </div>
         <div class="block lg:hidden">
@@ -52,8 +52,8 @@
         <div class="mb-8 lg:mb-0">
           <div>Copyright 2019. All rights reserved.</div>
           <div>
-            <a href="rss.xml" class="text-white hover:text-gray-400 font-normal">RSS Feed</a> |
-            <a href="sitemap.xml" class="text-white hover:text-gray-400 font-normal">Sitemap</a>
+            Hosting by <a href="https://netlify.com" class="text-white hover:text-gray-400 font-normal"><b>Netlify</b></a> |
+            Dev with ❤
           </div>
         </div>
         <ul class="flex items-center">

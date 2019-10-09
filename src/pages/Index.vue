@@ -4,6 +4,7 @@
       <div class="text-4xl font-bold w-full sm:w-3/5 text-center sm:text-left">
         <div class="leading-tight">Seba Cardoso</div>
         <div class="text-green-700 leading-tight">Javascript Web developer</div>
+        <div class="leading-tight text-gray-600">Bienvenidos a mi sitio web</div>
       </div>
       <div class="mt-8 sm:mt-0">
         <g-image src="../../static/developer.svg" alt="hero" class="mx-auto sm:mx-0" />
@@ -33,19 +34,19 @@
 
         <ul class="text-lg sm:text-xl">
           <li class="checkmark mb-6">
-            <div>Reversi Game</div>
-            <div class="text-lg text-gray-600">Un juego de mesa para dos personas también conocido como Othello. El mismo fue desarrollado con React y Redux. Unit testing con Jest y Enzyme</div>
+            <div><a href="https://reversi-game.sebastiancardoso92.now.sh">Reversi Game</a></div>
+            <div class="text-lg text-gray-600">Un juego de mesa para dos personas también conocido como Othello. El mismo fue desarrollado con React y Redux. Unit testing con Jest y Enzyme.</div>
           </li>
           <li class="checkmark mb-6">
-            <div>Geounity</div>
+            <div><a href="http://geounity.org">Geounity</a></div>
             <div class="text-lg text-gray-600">En esta aplicación pretendo moderar debates entre comunidades y personas. Esta siendo desarrollada con Vue. Tambíen estoy haciendo el Backend con Node y MongoDB. Y una base de datos Postgres. </div>
           </li>
           <li class="checkmark mb-6">
-            <div>Otro Sitio web personal</div>
+            <div><a href="https://sebastiancardoso.herokuapp.com">Otro Sitio web personal</a></div>
             <div class="text-lg text-gray-600">Antes tenía otro diseño con Nuxt. En este diseño implemente internacionalización con i18n para tener el sitio web en inglés y español.</div>
           </li>
           <li class="checkmark mb-6">
-            <div>Super podcast</div>
+            <div><a href="https://next-podcasts.sebastiancardoso92.now.sh">Super podcast</a></div>
             <div class="text-lg text-gray-600">Esta aplicación desarrollada con Next de React consume la api de AudioBoom para que puedas escuchar podcasts.</div>
           </li>
         </ul>
@@ -124,7 +125,7 @@
         <h2 class="text-2xl font-bold mb-8">Registrate a mi Newsletter</h2>
 
         <div class="w-4/5 mx-auto mb-8">
-          <p class="mb-8 text-lg sm:text-xl">Recibirás un aviso cada vez que publiqué un nuevo post. 😉Prometo no mandarte mas de 50 mails por día.</p>
+          <p class="mb-8 text-lg sm:text-xl">Recibirás un aviso cada vez que publiqué un nuevo post. </p>
 
           <form action="#">
             <div class="flex flex-col sm:flex-row">
