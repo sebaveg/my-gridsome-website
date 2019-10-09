@@ -14,7 +14,7 @@ tags: ['frontend', 'coding', 'vue']
 
 - **Desarrollo local con hot-reloading** - Ve los cambios mientras escribes el código en tiempo real.
 - **Muchísimos plugins** - Gridsome tiene un ecosistema de plugins para cualquier trabajo.
-- **Ruteo basado en archivos** - Cualquier Archivo.Vue dentro de "src/page" es automáticamente una ruta.
+- **Ruteo basado en archivos** - Cualquier `Archivo.Vue` dentro de `src/page` es automáticamente una ruta.
 - **Capa de datos GraphQL:** Gestión de datos más simple con una capa de datos centralizada.
 - **Vue.js para frontend** - Un framework super simple y accesible.
 - **Generador de archivos estáticos** - Despliegue de forma segura a cualquier CDN o hosting con una web estática.
