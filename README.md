@@ -1,6 +1,6 @@
 # Gridsome Portfolio Starter
 
-A simple portfolio starter theme for Gridsome
+A simple portfolio with Gridsome
 
 ![screenshot](https://user-images.githubusercontent.com/4316355/55691365-a2403380-596b-11e9-93be-05b846ec7760.jpg)
 
