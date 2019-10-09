@@ -42,7 +42,7 @@
           </li>
           <li class="checkmark mb-6">
             <div>Otro Sitio web personal</div>
-            <div class="text-lg text-gray-600">Antes tenía otro diseño con Nuxt. En este diseño implemente internacionalización con i18n para tener el sitio web en inglés y espaol.</div>
+            <div class="text-lg text-gray-600">Antes tenía otro diseño con Nuxt. En este diseño implemente internacionalización con i18n para tener el sitio web en inglés y español.</div>
           </li>
           <li class="checkmark mb-6">
             <div>Super podcast</div>
@@ -54,7 +54,7 @@
 
     <div class="overflow-x-hidden border-gray-200 border-b">
       <div class="get-to-know-me container-inner mx-auto text-xl pb-16 relative">
-        <h2 class="font-bold mb-6" id="about">Conoceme:</h2>
+        <h2 class="font-bold mb-6" id="about">Sobre mi:</h2>
 
         <div class="absolute left-0" style="top: 50px; transform: translateX(-100%)">
           <svg width="170px" height="170px"><use xlink:href="#dots-triangle" /></svg>
@@ -62,7 +62,7 @@
 
         <div class="flex flex-col sm:flex-row justify-between items-center mb-16">
           <div><g-image src="../../static/avatar.jpg" alt="avatar" class="w-32 h-32 rounded-full mb-8 lg:mb-0" /></div>
-          <div class="flex-1 text-lg sm:text-xl ml-6">Yo estoy realmente feliz de vivir en esta era de cambios tecnológicos. Quiero desarrollar software que cambie las vidas las personas para mejor. Mi especialidad es Javascript, pero estoy abierto a aprender lo que sea.</div>
+          <div class="flex-1 text-lg sm:text-xl ml-6">Yo estoy realmente feliz de vivir en esta era digital de cambios tecnológicos. Mi propósito es desarrollar software que cambie las vidas las personas para mejor. Mi especialidad es Javascript, pero estoy abierto a aprender lo que sea.</div>
         </div>
 
         <!-- <div class="responsive-container">
