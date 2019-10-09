@@ -1,16 +1,6 @@
 // This is where project configuration and plugin options are located.
 // Learn more: https://gridsome.org/docs/config
 
-// Changes here require a server restart.
-// To restart press CTRL + C in terminal and run `gridsome develop`
-
-const tailwind = require("tailwindcss");
-const purgecss = require("@fullhuman/postcss-purgecss");
-
-const postcssPlugins = [tailwind()];
-
-if (process.env.NODE_ENV === "production") postcssPlugins.push(purgecss());
-
 module.exports = {
   siteName: "Sebastian Cardoso Castillo",
   siteDescription: "Sitio web personal.",
@@ -20,6 +10,19 @@ module.exports = {
       use: "@gridsome/plugin-google-analytics",
       options: {
         id: "UA-68704010-1"
+      }
+    },
+    {
+      use: "@gridsome/source-filesystem",
+      options: {
+        path: "blog/**/*.md",
+        typeName: "Post",
+        refs: {
+          tags: {
+            typeName: "Tag",
+            create: true
+          }
+        }
       }
     },
     {
@@ -38,22 +41,25 @@ module.exports = {
       }
     },
     {
-      use: "@gridsome/source-filesystem",
+      use: 'gridsome-plugin-tailwindcss',
       options: {
-        path: "blog/**/*.md",
-        typeName: "Post",
-        refs: {
-          tags: {
-            typeName: "Tag",
-            create: true
-          }
-        }
+        tailwindConfig: './tailwind.config.js',
+        shouldPurge: true,
+        shouldImport: true,
+        shouldTimeTravel: true,
+        shouldPurgeUnusedKeyframes: true
       }
     },
     {
       use: "gridsome-plugin-netlify-cms",
       options: {
         publicPath: "/admin"
+      }
+    },
+    {
+      use: "@gridsome/plugin-sitemap",
+      options: {
+        cacheTime: 600000 // default
       }
     },
     {
@@ -77,12 +83,6 @@ module.exports = {
           name: "rss.xml"
         }
       }
-    },
-    {
-      use: "@gridsome/plugin-sitemap",
-      options: {
-        cacheTime: 600000 // default
-      }
     }
   ],
   templates: {
@@ -99,13 +99,6 @@ module.exports = {
       externalLinksTarget: "_blank",
       externalLinksRel: ["nofollow", "noopener", "noreferrer"],
       anchorClassName: "icon icon-link"
-    }
-  },
-  css: {
-    loaderOptions: {
-      postcss: {
-        plugins: postcssPlugins
-      }
     }
   }
 };
