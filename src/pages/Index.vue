@@ -1,13 +1,12 @@
 <template>
   <Layout>
     <div class="hero container-inner mx-auto flex flex-col sm:flex-row justify-between py-16">
-      <div class="text-4xl font-bold w-full sm:w-3/5 text-center sm:text-left">
-        <div class="leading-tight">Seba Cardoso</div>
-        <div class="text-green-700 leading-tight">Javascript Web developer</div>
-        <div class="leading-tight text-gray-600">Bienvenidos a mi sitio web</div>
-      </div>
       <div class="mt-8 sm:mt-0">
-        <g-image src="../../static/developer.svg" alt="hero" class="mx-auto sm:mx-0" />
+        <g-image src="../../static/avatar.jpg" alt="avatar" class="w-48 h-48 rounded-full lg:mb-0" />
+      </div>
+      <div class="text-4xl font-bold w-full mt-8 sm:w-3/5 text-center sm:text-left">
+        <div class="leading-tight">Seba Cardoso</div>
+        <div class="text-green-700 leading-tight">Web developer</div>
       </div>
     </div> <!-- end hero -->
 
@@ -16,7 +15,7 @@
 
       <div class="flex justify-between items-center py-6">
         <div class="w-full sm:w-1/2 px-8 py-8 sm:py-0">
-          <g-image src="../../static/mind_map.svg" alt="browser" />
+          <g-image src="../../static/developer.svg" alt="hero" class="mx-auto sm:mx-0" />
         </div>
         <div class="w-1/2 px-8 hidden sm:flex justify-end">
           <g-image src="../../static/code_review.svg" alt="mobile" />
@@ -62,7 +61,7 @@
         </div>
 
         <div class="flex flex-col sm:flex-row justify-between items-center mb-16">
-          <div><g-image src="../../static/avatar.jpg" alt="avatar" class="w-32 h-32 rounded-full mb-8 lg:mb-0" /></div>
+          <div><g-image src="../../static/avatar2.jpg" alt="avatar" class="w-32 h-32 rounded-full mb-8 lg:mb-0" /></div>
           <div class="flex-1 text-lg sm:text-xl ml-6">Yo estoy realmente feliz de vivir en esta era digital de cambios tecnológicos. Mi propósito es desarrollar software que cambie las vidas las personas para mejor. Mi especialidad es Javascript, pero estoy abierto a aprender lo que sea.</div>
         </div>
 
