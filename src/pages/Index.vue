@@ -81,9 +81,8 @@
           </div>
 
           <p class="mb-12">¿En qué te puedo ayudar? Voy a estar encantado de que me escribas: </p>
-
           <div class="text-lg sm:text-lg mb-16">
-            <form name="contact" method="POST" action="#" class="mb-12" data-netlify="true">
+            <form name="contact" method="POST" action="https://script.google.com/d/1ZkbSAGeYkIjSOJVKDaCFDfRoDCk4C4MlU41tSXNOom4lAUD2lFlqJS4l/edit?usp=sharing" class="mb-12" data-netlify="true">
               <div class="flex flex-wrap mb-6 -mx-4">
                   <div class="w-full md:w-1/2 mb-6 md:mb-0 px-4">
                       <label class="block mb-2 text-copy-primary" for="name">
@@ -111,7 +110,7 @@
               </div>
 
               <div class="flex justify-end w-full">
-                  <input type="submit" value="Enviar" class="block bg-green-700 hover:bg-green-800 text-white text-sm font-semibold tracking-wide uppercase shadow rounded cursor-pointer px-6 py-3">
+                  <button type="submit" value="Enviar" class="block bg-green-700 hover:bg-green-800 text-white text-sm font-semibold tracking-wide uppercase shadow rounded cursor-pointer px-6 py-3"></button>
               </div>
           </form>
           </div>
