@@ -110,7 +110,7 @@
               </div>
 
               <div class="flex justify-end w-full">
-                  <button type="submit" value="Enviar" class="block bg-green-700 hover:bg-green-800 text-white text-sm font-semibold tracking-wide uppercase shadow rounded cursor-pointer px-6 py-3"></button>
+                <input type="submit" value="Enviar" class="block bg-green-700 hover:bg-green-800 text-white text-sm font-semibold tracking-wide uppercase shadow rounded cursor-pointer px-6 py-3" />
               </div>
           </form>
           </div>
