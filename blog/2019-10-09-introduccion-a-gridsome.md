@@ -35,7 +35,7 @@ tags: ['frontend', 'coding', 'vue']
 
 
 ### Prerequisitos
-Tu deberías tener un conocimiento básico de HTML, CSS, [Vue.js](https://vuejs.org) y como usar la [Terminal](https://www.linode.com/docs/tools-reference/tools/using-the-terminal/). Saber como funcionan los [componentes de Vue](https://vuejs.org/v2/guide/single-file-components.html) & [GraphQL](https://www.graphql.com/) te ayudarán mas, pero no es necesario. Gridsome te ayudará a aprender sombre ambos.
+Tu deberías tener un conocimiento básico de HTML, CSS, [Vue.js](https://vuejs.org) y como usar la [Terminal](https://www.linode.com/docs/tools-reference/tools/using-the-terminal/). También te ayudará saber como funcionan los [componentes de Vue](https://vuejs.org/v2/guide/single-file-components.html) & [GraphQL](https://www.graphql.com/). Si no entiendes mucho todavía Gridsome te ayudará a aprender sombre ambos.
 
 Gridsome require tener instalado **Node.js** y **npm** aunque recomiendan **Yarn**. En lo personal he comprobado que yarn funciona unos segundos mas rápido.
 
