@@ -48,7 +48,7 @@
     </div>
     
     <footer class="bg-green-700 text-white">
-      <div class="container mx-auto flex flex-col lg:flex-row items-center justify-between py-8">
+      <div class="px-8 mx-auto flex flex-col lg:flex-row items-center justify-between py-8">
         <div class="mb-8 lg:mb-0">
           <div>Copyright 2019. All rights reserved.</div>
           <div>
@@ -56,14 +56,22 @@
             Powered by <a href="https://gridsome.com" class="text-white hover:text-gray-400 font-normal"><b>Gridsome</b></a>
             Dev with ❤
           </div>
-          <div>
-            <i>me@sebastiancardoso.com</i>
-          </div>
+          <p>
+            <i>hi@sebastiancardoso.com</i>
+          </p>
         </div>
-        <ul class="flex items-center">
+        <div>
+          <p>
+            <g-image src="../../static/bitcoin.jpg" class="h-32 w-32 mx-auto"></g-image>
+          </p>
+          <p class="mt-5">
+            <strong>bitcoin: 1P6e7sVL8Wxu1RwSaLj3WCFj4GmAvpcR7A</strong>
+          </p>
+        </div>
+        <ul class="flex items-center mt-8 lg:mt-0">
           <li class="mr-8">
             <a href="https://linkedin.com/in/sebastiancardoso92" target="_blank" class="text-white hover:text-gray-400">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z"/></svg>
+              <g-image src="../../static/linkedin.svg" alt="Linkedin"></g-image>
             </a>
           </li>
 
