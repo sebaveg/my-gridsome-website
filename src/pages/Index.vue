@@ -37,7 +37,7 @@
             <div class="text-lg text-gray-600">Un juego de mesa para dos personas también conocido como Othello. El mismo fue desarrollado con React y Redux. Unit testing con Jest y Enzyme.</div>
           </li>
           <li class="checkmark mb-6">
-            <div><a href="http://geounity.org">Geounity</a></div>
+            <div><a href="http://github.com/geounity">Geounity</a></div>
             <div class="text-lg text-gray-600">En esta aplicación pretendo moderar debates entre comunidades y personas. Esta siendo desarrollada con Vue. Tambíen estoy haciendo el Backend con Node y MongoDB. Y una base de datos Postgres. </div>
           </li>
           <li class="checkmark mb-6">
