@@ -19,7 +19,7 @@ tags: ['frontend', 'coding', 'vue']
 - **Vue.js para frontend** - Un framework super simple y accesible.
 - **Generador de archivos estáticos** - Despliegue de forma segura a cualquier CDN o hosting con una web estática.
 
-[Aprende mas sobre como funciona Gridsome](/docs/how-it-works)
+[Aprende mas sobre como funciona Gridsome](http://gridsome.com)
 
 ```js
 <template>
