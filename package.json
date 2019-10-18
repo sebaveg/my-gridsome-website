@@ -7,12 +7,14 @@
     "explore": "gridsome explore"
   },
   "dependencies": {
+    "@gridsome/cli": "^0.3.1",
     "@gridsome/plugin-google-analytics": "^0.1.0",
     "@gridsome/plugin-sitemap": "^0.2.2",
-    "@gridsome/source-filesystem": "^0.6.1",
-    "@gridsome/vue-remark": "^0.1.6",
+    "@gridsome/source-filesystem": "^0.6.1",  
+    "@gridsome/vue-remark": "^0.1.7",
     "axios": "^0.19.0",
-    "gridsome": "^0.7.7",
+    "global": "^4.4.0",
+    "gridsome": "^0.7.8",
     "gridsome-plugin-netlify-cms": "^1.0.9",
     "gridsome-plugin-remark-shiki": "^0.3.0",
     "gridsome-plugin-rss": "^1.2.0",

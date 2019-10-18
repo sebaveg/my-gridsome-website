@@ -25,3 +25,21 @@ tags: ['backend', 'firebase', 'web']
 La verdad es que puedes comenzar a utilizar Firebase de manera gratuita. No hay tiempo límite, solo hay recursos limitados. Si recién estas comenzando puedes optar por la opcion gratuita y mas adelante si tu aplicación lo necesita actualizar el plan.
 
 ![firebase-pricing](./images/firebase-pricing.png)
+
+### Registrarse en Firebase y comenzar un proyecto
+
+Para comenzar nos registramos en [firebase](https://firebase.google.com/) con nuestra cuenta de gmail o cualquier otro correo. Nos va a mostrar una bienvenidas explicando todos los servicios que nos ofrecen. Luego añadimos un nuevo proyecto con un nombre único. Si ya existe nos dará un nombre sugerido o lo cambiamos hasta que este disponible. También podremos configurar Google Analytics de forma muy fácil como muestro en el siguiente gif:
+
+![config-firebase](./images/config-fire.gif)
+
+A continuación le decimos si lo vamos a usar para la Web, en Android o iOS. En mi caso voy a crear una aplicación web. Me da un código de configuración para pegar en mi proyecto.
+
+![firebase-sdk](./images/fire-sdk.png)
+
+Recomiendo que naveguen por las distintas secciones y pestañas para que se vayan familiarizando con las maravillas que nos brinda firebase. Ya tenemos nuestro proyecto listo en Firebase ahora pasemos a crear la aplicación con Nuxt para empezar a usar los servicios.
+
+```js
+npx create-nuxt-app sebacode-blog
+```
+
+Nos hara algunas preguntas acerca de como queremos configurar nuestro proyecto.

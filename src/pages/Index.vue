@@ -35,6 +35,7 @@
           <li class="checkmark mb-6">
             <div><a href="https://reversi-game.sebastiancardoso92.now.sh">Reversi Game</a></div>
             <div class="text-lg text-gray-600">Un juego de mesa para dos personas también conocido como Othello. El mismo fue desarrollado con React y Redux. Unit testing con Jest y Enzyme.</div>
+            <g-image src="../../static/reversi.png" />
           </li>
           <li class="checkmark mb-6">
             <div><a href="http://github.com/geounity">Geounity</a></div>
