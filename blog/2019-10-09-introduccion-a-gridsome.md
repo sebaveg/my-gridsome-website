@@ -21,21 +21,8 @@ tags: ['frontend', 'coding', 'vue']
 
 [Aprende mas sobre como funciona Gridsome](http://gridsome.com)
 
-```js
-<template>
-  <Layout>
-    <div class="container-inner mx-auto my-16">
-      <h1 class="text-4xl font-bold leading-tight">{{ $page.post.title }}</h1>
-      <div class="text-xl text-gray-600 mb-8">{{ $page.post.date }}</div>
-      <div class="markdown-body" v-html="$page.post.content" />
-    </div>
-  </Layout>
-</template>
-```
-
-
 ### Prerequisitos
-Tu deberías tener un conocimiento básico de HTML, CSS, [Vue.js](https://vuejs.org) y como usar la [Terminal](https://www.linode.com/docs/tools-reference/tools/using-the-terminal/). También te ayudará saber como funcionan los [componentes de Vue](https://vuejs.org/v2/guide/single-file-components.html) & [GraphQL](https://www.graphql.com/). Si no entiendes mucho todavía Gridsome te ayudará a aprender sombre ambos.
+Tu deberías tener un conocimiento básico de HTML, CSS, [Vue.js](https://vuejs.org) y como usar la [Terminal](https://www.linode.com/docs/tools-reference/tools/using-the-terminal/). También te ayudará saber como funcionan los [componentes de Vue](https://vuejs.org/v2/guide/single-file-components.html) & [GraphQL](https://www.graphql.com/). Si no entiendes mucho todavía Gridsome te ayudará a aprender sobre ambos.
 
 Gridsome require tener instalado **Node.js** y **npm** aunque recomiendan **Yarn**. En lo personal he comprobado que yarn funciona unos segundos mas rápido.
 
