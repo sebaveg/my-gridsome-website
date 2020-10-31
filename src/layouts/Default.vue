@@ -62,7 +62,7 @@
         </div>
         <div>
           <p>
-            <g-image src="../../static/bitcoin.jpg" class="h-32 w-32 mx-auto"></g-image>
+            <g-image src="../../static/bitcoin.png" class="h-32 w-32 mx-auto"></g-image>
           </p>
           <p class="mt-5">
             <strong>bitcoin: 1CQm56Z67uFdYKaLJ1vbJfuaKoT2HAFCpU</strong>
