@@ -65,7 +65,7 @@
             <g-image src="../../static/bitcoin.png" class="h-32 w-32 mx-auto"></g-image>
           </p>
           <p class="mt-5">
-            <strong>bitcoin: 1CQm56Z67uFdYKaLJ1vbJfuaKoT2HAFCpU</strong>
+            <strong>bitcoin: 3JWAttS9CVTtbZ3Soy8XhZmaxdWbJSCXAA</strong>
           </p>
         </div>
         <ul class="flex items-center mt-8 lg:mt-0">
